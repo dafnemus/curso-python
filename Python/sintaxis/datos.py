@@ -77,5 +77,3 @@ prod = num1 * num2 * num3 * num4
 print(type(suma))
 print(type(resta))
 print(type(prod))
-
-
