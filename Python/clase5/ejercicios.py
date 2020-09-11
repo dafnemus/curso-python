@@ -20,7 +20,7 @@ año = numero[:-4]
 if 8 == len(numero):
     print(f'día: {dia}, mes {mes}, año {año}')
 else:
-    print(f'Error, ingreso {numero}')
+    print(f'Error')
 
 print()
 '''
@@ -53,5 +53,7 @@ else:
     print(f'{a} es menor a {b}')
 
 print()
+
+# 5. Dadas dos fechas informar cual es la más reciente. Determine cuales serían los datos de entrada y las leyendas a informar de acuerdo al proceso solicitado.
 
 

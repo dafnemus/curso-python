@@ -1,5 +1,5 @@
 '''
-5. Dadas dos fechas informar cual es la más reciente. Determine cuales serían los datos de entrada y las leyendas a informar de acuerdo al proceso solicitado.
+
 6. Se ingresa una edad, mostrar por pantalla alguna de las siguientes leyendas:
 
     ‘menor’ si la edad es menor o igual a 12
