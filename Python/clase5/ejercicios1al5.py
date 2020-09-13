@@ -53,7 +53,20 @@ else:
     print(f'{a} es menor a {b}')
 
 print()
-
 # 5. Dadas dos fechas informar cual es la más reciente. Determine cuales serían los datos de entrada y las leyendas a informar de acuerdo al proceso solicitado.
 
+from datetime import datetime
 
+formato = "%d/%m/%Y"  # Formato de fecha que quiero que se ingrese.
+fecha1 = input('Introducir fecha inicial (dd/mm/aaaa): ')  
+fecha2 = input('Introducir fecha inicial (dd/mm/aaaa): ')  
+fecha1 = datetime.strptime(fecha1, formato)   
+#El strptime() crea un objeto de fecha y hora a partir de la cadena dada.
+fecha2 = datetime.strptime(fecha2, formato)
+
+if fecha1 < fecha2:
+    print(f'{fecha2} es más reciente')
+    if fecha1 == fecha2:
+        print('Ambas fechas son iguales')
+else:
+    print(f'{fecha1} es más reciente')
