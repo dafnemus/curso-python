@@ -46,6 +46,7 @@ sumatoria = sum(menor)  # sum suma los valores de una lista
 print(f'el promedio de los mayores de 100 {mas_100} es {promedio_mas_100}')
 print(f'la sumatoria de los -10 {menor} es {sumatoria}')
 print()
+
 # 9. Dados 10 valores informar el mayor
 n = 1
 lista = []

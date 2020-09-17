@@ -53,12 +53,12 @@ repeticion(palabra)
 print()
 
 # 13. Crear una lista con 6 elementos, luego recorrerla e imprimir elemento a elemento en renglones distintos.
-import random
+# import random
 
 lista = ['hola', 150, True, 20, 'flores', 65]
 
 def aleatorio(lista):
-    random.shuffle(lista)  # importe Random para usar el metodo shuffle(lista aleatoria)
+    # random.shuffle(lista)  # importe Random para usar el metodo shuffle(lista aleatoria)
     for i in range(0,len(lista)): # len(extension de la lista)... range: de la posicion 0 hasta elfinal.
         print(lista[i])  
 
@@ -93,3 +93,4 @@ def juego():
         print(jugador)
 
 juego()
+
