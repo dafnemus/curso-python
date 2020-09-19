@@ -1,4 +1,4 @@
-'''
+
 # 10. Dados N valores informar el mayor, el menor y en que posición del conjunto fueron ingresados.
 n = 1
 valores = []
@@ -14,10 +14,10 @@ print(f'El menor de {valores} es {min(valores)} se ingreso en la posicion {menor
 
 # 11. Dado un conjunto de Nombres y Fechas de nacimientos (AAAAMMDD), que finaliza con un Nombre= ‘FIN’, informar el nombre de la persona con mayor edad y el de la más joven.
 
-'''
+# no lo entendi por ahora.
 
 '''
-12. Dado un conjunto de valores, que finaliza con un valor nulo, determinar e imprimir (si hubo valores):
+# 12. Dado un conjunto de valores, que finaliza con un valor nulo, determinar e imprimir (si hubo valores):
 a) El valor máximo negativo
 b) El valor mínimo positivo
 c) El valor mínimo dentro del rango -17.3 y 26.9
