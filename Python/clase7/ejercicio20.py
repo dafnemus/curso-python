@@ -35,6 +35,7 @@ def estado_alumnos(dic):
     print("\nalumnos aplazados \n")
     for i in aplazados:
         print(i)
+print()
 
 def ingreso_estudiantes():
     for i in range(10):
