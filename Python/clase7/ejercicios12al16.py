@@ -57,14 +57,12 @@ lista_numeros()
 
 def encontrar_num():
     mensaje = input('Ingrese un mensaje: ')
-    lista = mansaje.split()
     numeros = []
-    for i in lista:
+    for i in mensaje:
         if i.isnumeric():
             numeros.append(i)
-            print(true)
-        else:
-            print('No hay numeros en el mensaje')
     print(numeros)
 
 encontrar_num()
+
+
