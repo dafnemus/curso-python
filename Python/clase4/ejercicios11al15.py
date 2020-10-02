@@ -1,5 +1,5 @@
 import random
-
+'''
 # 11. Crear un programa que pida al usuario un número entero y muestre por pantalla si es par o impar.
 
 numero = int(input('Ingrese un número: '))
@@ -31,7 +31,7 @@ contacto = { 'name': 'Dafne', 'edad': '22', 'pais': 'Argentina'}
 for i in contacto:
     valor = contacto[i]
     print('> ', i, '→ ', valor)
-
+'''
 print()
 # 15. Crear un programa que imprima por pantalla todo lo que el usuario ingresa hasta que ingresa la palabra “salir”.
 

@@ -9,3 +9,25 @@ Crear un script llamado **contador.py** que realice varias tareas sobre un fiche
 - Finalmente guardará de nuevo el valor del contador de nuevo en el fichero.
 - Utiliza excepciones si crees que es necesario, puedes mostrar el mensaje: **Error: Fichero corrupto. *(¡y tiene que ser en rojo! Nah, mentira, eso lo agregué yo)***
 '''
+def contador():
+    visitas = input('Ingresar inc o dec: ')
+    global valor_inicial
+    valor_inicial = 0
+    while visitas == 'inc' or visitas == 'dec':
+        visitas = input('Ingresar inc o dec: ')
+        if visitas == 'dec':
+            valor_inicial -= 1
+            print(valor_inicial)
+        elif visitas == 'inc':
+            valor_inicial += 1
+            print(valor_inicial)
+        else:
+            print(valor_inicial)
+
+contador()
+contador_visitas = str(valor_inicial)
+
+with open('contador.txt','w+') as f:
+    f.write(f'visitas totales: {contador_visitas}')
+    print(f.read())
+    f.close()
