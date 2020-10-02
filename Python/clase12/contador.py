@@ -28,6 +28,6 @@ contador()
 contador_visitas = str(valor_inicial)
 
 with open('contador.txt','w+') as f:
-    f.write(f'visitas totales: {contador_visitas}')
+    f.write(f'visitas totales: {contador_visitas} ')
     print(f.read())
     f.close()
