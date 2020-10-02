@@ -9,7 +9,6 @@ El fichero de texto se denominará **personas.txt** y tendrá el siguiente conte
 4;David;García;25/07/2006
 
 Los campos del diccionario serán por orden:
-
 **id**, **nombre, apellido** y **nacimiento**.
 '''
 data = {
@@ -36,18 +35,16 @@ data = {
 }
 
 def datos(data):
-    global fichero
+    global fichero  # variable global para poder usarla como valor.
     fichero = []
     for key in data:
         valor = data[key]
-        lista = f'{key}{valor}'
+        lista = f'{key}{valor}' # convierto el diccionario en una lista de string.
         fichero.append(lista)
 
 datos(data)
-
-cadena = "\n".join(fichero)
-
-persona = cadena.replace('{','-').replace('}','.')
+cadena = "\n".join(fichero) # separo la lista con salto de linea.
+persona = cadena.replace('{','-').replace('}','.') # reemplazo de caracteres.
 
 with open('personas.txt', 'w+') as f:
     f.write(persona)
