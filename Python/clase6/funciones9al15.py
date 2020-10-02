@@ -1,5 +1,5 @@
 # 9. Crear un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña e imprima por pantalla si la contraseña introducida por el usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.
-
+'''
 def password():
     contraseña = 'puerta18'
     login = input('Ingrese su contraseña: ')
@@ -65,7 +65,7 @@ def aleatorio(lista):
 aleatorio(lista)
 
 print()
-
+'''
 ## 14. Crear un programa que recorra un diccionario previamente creado y muestre por pantalla:
 # > clave → valor 
 
@@ -77,7 +77,7 @@ def diccionario(contacto):
 
 diccionario(contacto)
 print()
-
+'''
 # 15. Crear un programa que imprima por pantalla todo lo que el usuario ingresa hasta que ingresa la palabra “salir”.
 
 print('Juegos de palabras, ingrese de a una')
@@ -93,4 +93,4 @@ def juego():
         print(jugador)
 
 juego()
-
+'''
