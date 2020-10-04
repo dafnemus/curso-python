@@ -1,4 +1,4 @@
-1-'nombre': 'Carlos', 'apellido': 'Perez', 'nacimiento': '05/01/1989'.
-2-'nombre': 'Manuel', 'apellido': 'Heredia', 'nacimiento': '26/12/1973'.
-3-'nombre': 'Rosa', 'apellido': 'Campos', 'nacimiento': '12/06/1961'.
-4-'nombre': 'David', 'apellido': 'Garcia', 'nacimiento': '25/07/2006'.
+1-nombre: Carlos, apellido: Perez, nacimiento: 05/01/1989.
+2-nombre: Manuel, apellido: Heredia, nacimiento: 26/12/1973.
+3-nombre: Rosa, apellido: Campos, nacimiento: 12/06/1961.
+4-nombre: David, apellido: Garcia, nacimiento: 25/07/2006.

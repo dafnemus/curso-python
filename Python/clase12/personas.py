@@ -44,7 +44,7 @@ def datos(data):
 
 datos(data)
 cadena = "\n".join(fichero) # separo la lista con salto de linea.
-persona = cadena.replace('{','-').replace('}','.') # reemplazo de caracteres.
+persona = cadena.replace('{','-').replace('}','.').replace("'",'') # reemplazo de caracteres.
 
 with open('personas.txt', 'w+') as f: 
     f.write(persona)

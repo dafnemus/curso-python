@@ -27,7 +27,8 @@ def contador():
 contador()
 contador_visitas = str(valor_inicial)
 
-with open('contador.txt','w+') as f:
+with open('contador.txt','a+') as f:
     f.write(f'visitas totales: {contador_visitas} ')
+    f.write('\n')
     print(f.read())
     f.close()
